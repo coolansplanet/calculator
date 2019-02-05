@@ -1,0 +1,173 @@
+dcc1943b70e195c4172d7ead174573b4
+"use strict";
+
+var _interopRequireWildcard = require("/home/hermanschmidt/Desktop/calculator/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _jsxFileName = "/home/hermanschmidt/Desktop/calculator/src/components/Calculator/Calculator.js";
+
+class Calculator extends _react.Component {
+  render() {
+    return _react.default.createElement("div", {
+      className: "calculator",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 6
+      },
+      __self: this
+    }, _react.default.createElement("div", {
+      className: "display",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 7
+      },
+      __self: this
+    }, "display"), _react.default.createElement("div", {
+      className: "buttons",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: this
+    }, _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12
+      },
+      __self: this
+    }, "7"), _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16
+      },
+      __self: this
+    }, "8"), _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, "9"), _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    }, "\xF7"), _react.default.createElement("button", {
+      className: "special-button"
+      /*onClick={}*/
+      ,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 30
+      },
+      __self: this
+    }, "C"), _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36
+      },
+      __self: this
+    }, "4"), _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40
+      },
+      __self: this
+    }, "5"), _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44
+      },
+      __self: this
+    }, "6"), _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48
+      },
+      __self: this
+    }, "\xD7"), _react.default.createElement("button", {
+      className: "special-button",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52
+      },
+      __self: this
+    }, "CE"), _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 54
+      },
+      __self: this
+    }, "1"), _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58
+      },
+      __self: this
+    }, "2"), _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62
+      },
+      __self: this
+    }, "3"), _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66
+      },
+      __self: this
+    }, "-"), _react.default.createElement("button", {
+      className: "special-button"
+      /*onClick={this.props.deleteCharacter.bind(this)}*/
+      ,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 70
+      },
+      __self: this
+    }, "DEL"), _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 76
+      },
+      __self: this
+    }, "0"), _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 80
+      },
+      __self: this
+    }, "."), _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 84
+      },
+      __self: this
+    }, "="), _react.default.createElement("button", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 88
+      },
+      __self: this
+    }, "+"), _react.default.createElement("button", {
+      className: "special-button",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 92
+      },
+      __self: this
+    }, "A")));
+  }
+
+}
+
+var _default = Calculator;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNhbGN1bGF0b3IuanMiXSwibmFtZXMiOlsiQ2FsY3VsYXRvciIsIkNvbXBvbmVudCIsInJlbmRlciJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQUE7Ozs7QUFFQSxNQUFNQSxVQUFOLFNBQXlCQyxnQkFBekIsQ0FBbUM7QUFDakNDLEVBQUFBLE1BQU0sR0FBRztBQUNQLFdBQ0U7QUFBSyxNQUFBLFNBQVMsRUFBQyxZQUFmO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE9BQ0U7QUFBSyxNQUFBLFNBQVMsRUFBQyxTQUFmO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLGlCQURGLEVBS0U7QUFBSyxNQUFBLFNBQVMsRUFBQyxTQUFmO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLE9BQ0E7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsV0FEQSxFQUtJO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLFdBTEosRUFTSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQVRKLEVBY0k7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsY0FkSixFQW1CSTtBQUNJLE1BQUEsU0FBUyxFQUFDO0FBQ1Y7QUFGSjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQW5CSixFQXlCSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQXpCSixFQTZCSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQTdCSixFQWlDSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQWpDSixFQXFDSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxjQXJDSixFQXlDSTtBQUFRLE1BQUEsU0FBUyxFQUFDLGdCQUFsQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxZQXpDSixFQTJDSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQTNDSixFQStDSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQS9DSixFQW1ESTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQW5ESixFQXVESTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQXZESixFQTJESTtBQUNJLE1BQUEsU0FBUyxFQUFDO0FBQ1Y7QUFGSjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxhQTNESixFQWlFSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQWpFSixFQXFFSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQXJFSixFQXlFSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQXpFSixFQTZFSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQTdFSixFQWlGSTtBQUFRLE1BQUEsU0FBUyxFQUFDLGdCQUFsQjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQWpGSixDQUxGLENBREY7QUEyRkQ7O0FBN0ZnQzs7ZUFnR3BCRixVIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IENvbXBvbmVudCB9IGZyb20gJ3JlYWN0JztcblxuY2xhc3MgQ2FsY3VsYXRvciBleHRlbmRzIENvbXBvbmVudCB7XG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjYWxjdWxhdG9yXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGlzcGxheVwiPlxuICAgICAgICAgICAgZGlzcGxheVxuICAgICAgICA8L2Rpdj5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImJ1dHRvbnNcIj5cbiAgICAgICAgPGJ1dHRvblxuICAgICAgICAgICAgLypvbkNsaWNrPXt9Ki8+XG4gICAgICAgICAgICA3XG4gICAgICAgIDwvYnV0dG9uPlxuICAgICAgICAgICAgPGJ1dHRvblxuICAgICAgICAgICAgICAgIC8qb25DbGljaz17fSovPlxuICAgICAgICAgICAgICAgIDhcbiAgICAgICAgICAgIDwvYnV0dG9uPlxuICAgICAgICAgICAgPGJ1dHRvblxuICAgICAgICAgICAgICAgIC8qb25DbGljaz17fSovPlxuICAgICAgICAgICAgICAgIDlcbiAgICAgICAgICAgIDwvYnV0dG9uPlxuXG4gICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgICAgLypvbkNsaWNrPXt9Ki8+XG4gICAgICAgICAgICAgICAgw7dcbiAgICAgICAgICAgIDwvYnV0dG9uPlxuXG4gICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwic3BlY2lhbC1idXR0b25cIlxuICAgICAgICAgICAgICAgIC8qb25DbGljaz17fSovPlxuICAgICAgICAgICAgICAgIENcbiAgICAgICAgICAgIDwvYnV0dG9uPlxuXG4gICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgICAgLypvbkNsaWNrPXt9Ki8+XG4gICAgICAgICAgICAgICAgNFxuICAgICAgICAgICAgPC9idXR0b24+XG4gICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgICAgLypvbkNsaWNrPXt9Ki8+XG4gICAgICAgICAgICAgICAgNVxuICAgICAgICAgICAgPC9idXR0b24+XG4gICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgICAgLypvbkNsaWNrPXt9Ki8+XG4gICAgICAgICAgICAgICAgNlxuICAgICAgICAgICAgPC9idXR0b24+XG4gICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgICAgLypvbkNsaWNrPXt0aGlzLnByb3BzLmlucHV0T3BlcmF0b3IuYmluZCh0aGlzLCAnKicpfSovPlxuICAgICAgICAgICAgICAgIMOXXG4gICAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPVwic3BlY2lhbC1idXR0b25cIj5DRTwvYnV0dG9uPlxuXG4gICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgICAgLypvbkNsaWNrPXt0aGlzLnByb3BzLmlucHV0TnVtYmVyLmJpbmQodGhpcywgMSl9Ki8+XG4gICAgICAgICAgICAgICAgMVxuICAgICAgICAgICAgPC9idXR0b24+XG4gICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgICAgLypvbkNsaWNrPXt0aGlzLnByb3BzLmlucHV0TnVtYmVyLmJpbmQodGhpcywgMil9Ki8+XG4gICAgICAgICAgICAgICAgMlxuICAgICAgICAgICAgPC9idXR0b24+XG4gICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgICAgLypvbkNsaWNrPXt0aGlzLnByb3BzLmlucHV0TnVtYmVyLmJpbmQodGhpcywgMyl9Ki8+XG4gICAgICAgICAgICAgICAgM1xuICAgICAgICAgICAgPC9idXR0b24+XG4gICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgICAgLypvbkNsaWNrPXt0aGlzLnByb3BzLmlucHV0T3BlcmF0b3IuYmluZCh0aGlzLCAnLScpfSovPlxuICAgICAgICAgICAgICAgIC1cbiAgICAgICAgICAgIDwvYnV0dG9uPlxuICAgICAgICAgICAgPGJ1dHRvblxuICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInNwZWNpYWwtYnV0dG9uXCJcbiAgICAgICAgICAgICAgICAvKm9uQ2xpY2s9e3RoaXMucHJvcHMuZGVsZXRlQ2hhcmFjdGVyLmJpbmQodGhpcyl9Ki8+XG4gICAgICAgICAgICAgICAgREVMXG4gICAgICAgICAgICA8L2J1dHRvbj5cblxuICAgICAgICAgICAgPGJ1dHRvblxuICAgICAgICAgICAgICAgIC8qb25DbGljaz17dGhpcy5wcm9wcy5pbnB1dE51bWJlci5iaW5kKHRoaXMsIDApfSovPlxuICAgICAgICAgICAgICAgIDBcbiAgICAgICAgICAgIDwvYnV0dG9uPlxuICAgICAgICAgICAgPGJ1dHRvblxuICAgICAgICAgICAgICAgIC8qb25DbGljaz17dGhpcy5wcm9wcy5pbnB1dFBvaW50LmJpbmQodGhpcywgJy4nKX0qLz5cbiAgICAgICAgICAgICAgICAuXG4gICAgICAgICAgICA8L2J1dHRvbj5cbiAgICAgICAgICAgIDxidXR0b25cbiAgICAgICAgICAgICAgICAvKm9uQ2xpY2s9e3RoaXMucHJvcHMuaW5wdXRPcGVyYXRvci5iaW5kKHRoaXMsICc9Jyl9Ki8+XG4gICAgICAgICAgICAgICAgPVxuICAgICAgICAgICAgPC9idXR0b24+XG4gICAgICAgICAgICA8YnV0dG9uXG4gICAgICAgICAgICAgICAgLypvbkNsaWNrPXt0aGlzLnByb3BzLmlucHV0T3BlcmF0b3IuYmluZCh0aGlzLCAnKycpfSovPlxuICAgICAgICAgICAgICAgICtcbiAgICAgICAgICAgIDwvYnV0dG9uPlxuICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJzcGVjaWFsLWJ1dHRvblwiPkE8L2J1dHRvbj5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICApO1xuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IENhbGN1bGF0b3I7XG4iXX0=

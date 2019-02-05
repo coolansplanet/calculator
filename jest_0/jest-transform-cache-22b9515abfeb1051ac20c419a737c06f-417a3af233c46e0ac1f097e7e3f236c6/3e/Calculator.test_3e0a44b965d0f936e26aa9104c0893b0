@@ -1,0 +1,51 @@
+3ba49a6901d69b91c4b4b1a31ff3e2ab
+"use strict";
+
+var _interopRequireDefault = require("/home/hermanschmidt/Desktop/calculator/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("/home/hermanschmidt/Desktop/calculator/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+var _Calculator = _interopRequireDefault(require("./Calculator"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+var _enzyme = _interopRequireWildcard(require("enzyme"));
+
+var _enzymeAdapterReact = _interopRequireDefault(require("enzyme-adapter-react-16"));
+
+var _jsxFileName = "/home/hermanschmidt/Desktop/calculator/src/components/Calculator/Calculator.test.js";
+
+_enzyme.default.configure({
+  adapter: new _enzymeAdapterReact.default()
+});
+
+describe('Calculator component', () => {
+  it('The first displayed number should be 0', () => {
+    const wrapper = (0, _enzyme.shallow)(_react.default.createElement(_Calculator.default, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      },
+      __self: void 0
+    }));
+    const display = wrapper.find('.display').text();
+    expect(display).toEqual('0');
+  });
+  it('Checking all numbers work', () => {
+    const wrapper = (0, _enzyme.shallow)(_react.default.createElement(_Calculator.default, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: void 0
+    }));
+    const display = wrapper.find('.display').text();
+    const button = wrapper.find('.b7');
+    button.props('onClick')();
+    console.log('fffffffff');
+    expect(display).toEqual('7');
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNhbGN1bGF0b3IudGVzdC5qcyJdLCJuYW1lcyI6WyJFbnp5bWUiLCJjb25maWd1cmUiLCJhZGFwdGVyIiwiQWRhcHRlciIsImRlc2NyaWJlIiwiaXQiLCJ3cmFwcGVyIiwiZGlzcGxheSIsImZpbmQiLCJ0ZXh0IiwiZXhwZWN0IiwidG9FcXVhbCIsImJ1dHRvbiIsInByb3BzIiwiY29uc29sZSIsImxvZyJdLCJtYXBwaW5ncyI6Ijs7Ozs7O0FBQUE7O0FBQ0E7O0FBQ0E7O0FBQ0E7O0FBQ0E7Ozs7QUFHQUEsZ0JBQU9DLFNBQVAsQ0FBaUI7QUFBRUMsRUFBQUEsT0FBTyxFQUFFLElBQUlDLDJCQUFKO0FBQVgsQ0FBakI7O0FBRUFDLFFBQVEsQ0FBQyxzQkFBRCxFQUF5QixNQUFNO0FBRW5DQyxFQUFBQSxFQUFFLENBQUMsd0NBQUQsRUFBMkMsTUFBTTtBQUMvQyxVQUFNQyxPQUFPLEdBQUcscUJBQVEsNkJBQUMsbUJBQUQ7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsTUFBUixDQUFoQjtBQUNBLFVBQU1DLE9BQU8sR0FBR0QsT0FBTyxDQUFDRSxJQUFSLENBQWEsVUFBYixFQUF5QkMsSUFBekIsRUFBaEI7QUFDQUMsSUFBQUEsTUFBTSxDQUFDSCxPQUFELENBQU4sQ0FBZ0JJLE9BQWhCLENBQXdCLEdBQXhCO0FBQ0gsR0FKQyxDQUFGO0FBTUFOLEVBQUFBLEVBQUUsQ0FBQywyQkFBRCxFQUE4QixNQUFNO0FBQ2xDLFVBQU1DLE9BQU8sR0FBRyxxQkFBUSw2QkFBQyxtQkFBRDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxNQUFSLENBQWhCO0FBQ0EsVUFBTUMsT0FBTyxHQUFHRCxPQUFPLENBQUNFLElBQVIsQ0FBYSxVQUFiLEVBQXlCQyxJQUF6QixFQUFoQjtBQUVBLFVBQU1HLE1BQU0sR0FBR04sT0FBTyxDQUFDRSxJQUFSLENBQWEsS0FBYixDQUFmO0FBQ0NJLElBQUFBLE1BQU0sQ0FBQ0MsS0FBUCxDQUFhLFNBQWI7QUFDREMsSUFBQUEsT0FBTyxDQUFDQyxHQUFSLENBQVksV0FBWjtBQUVBTCxJQUFBQSxNQUFNLENBQUNILE9BQUQsQ0FBTixDQUFnQkksT0FBaEIsQ0FBd0IsR0FBeEI7QUFDSCxHQVRDLENBQUY7QUFVSCxDQWxCTyxDQUFSIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IENhbGN1bGF0b3IgZnJvbSAnLi9DYWxjdWxhdG9yJztcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgUmVhY3RET00gZnJvbSAncmVhY3QtZG9tJztcbmltcG9ydCBFbnp5bWUgZnJvbSAnZW56eW1lJztcbmltcG9ydCBBZGFwdGVyIGZyb20gJ2VuenltZS1hZGFwdGVyLXJlYWN0LTE2JztcbmltcG9ydCB7IHNoYWxsb3cgfSBmcm9tICdlbnp5bWUnO1xuXG5Fbnp5bWUuY29uZmlndXJlKHsgYWRhcHRlcjogbmV3IEFkYXB0ZXIoKSB9KTtcblxuZGVzY3JpYmUoJ0NhbGN1bGF0b3IgY29tcG9uZW50JywgKCkgPT4ge1xuXG4gICAgaXQoJ1RoZSBmaXJzdCBkaXNwbGF5ZWQgbnVtYmVyIHNob3VsZCBiZSAwJywgKCkgPT4ge1xuICAgICAgICBjb25zdCB3cmFwcGVyID0gc2hhbGxvdyg8Q2FsY3VsYXRvci8+KTtcbiAgICAgICAgY29uc3QgZGlzcGxheSA9IHdyYXBwZXIuZmluZCgnLmRpc3BsYXknKS50ZXh0KCk7XG4gICAgICAgIGV4cGVjdChkaXNwbGF5KS50b0VxdWFsKCcwJyk7XG4gICAgfSk7XG5cbiAgICBpdCgnQ2hlY2tpbmcgYWxsIG51bWJlcnMgd29yaycsICgpID0+IHtcbiAgICAgICAgY29uc3Qgd3JhcHBlciA9IHNoYWxsb3coPENhbGN1bGF0b3IvPik7XG4gICAgICAgIGNvbnN0IGRpc3BsYXkgPSB3cmFwcGVyLmZpbmQoJy5kaXNwbGF5JykudGV4dCgpO1xuXG4gICAgICAgIGNvbnN0IGJ1dHRvbiA9IHdyYXBwZXIuZmluZCgnLmI3Jyk7XG4gICAgICAgICBidXR0b24ucHJvcHMoJ29uQ2xpY2snKSgpO1xuICAgICAgICBjb25zb2xlLmxvZygnZmZmZmZmZmZmJyk7XG5cbiAgICAgICAgZXhwZWN0KGRpc3BsYXkpLnRvRXF1YWwoJzcnKTtcbiAgICB9KTtcbn0pO1xuIl19

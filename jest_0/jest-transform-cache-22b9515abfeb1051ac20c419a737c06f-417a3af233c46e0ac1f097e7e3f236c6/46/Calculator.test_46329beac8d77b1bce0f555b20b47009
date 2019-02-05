@@ -1,0 +1,38 @@
+be918982c3a272c6f22863a95ac6b613
+"use strict";
+
+var _interopRequireDefault = require("/home/hermanschmidt/Desktop/calculator/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("/home/hermanschmidt/Desktop/calculator/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+var _Calculator = _interopRequireDefault(require("./Calculator"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+var _enzyme = _interopRequireWildcard(require("enzyme"));
+
+var _enzymeAdapterReact = _interopRequireDefault(require("enzyme-adapter-react-16"));
+
+var _jsxFileName = "/home/hermanschmidt/Desktop/calculator/src/components/Calculator/Calculator.test.js";
+
+_enzyme.default.configure({
+  adapter: new _enzymeAdapterReact.default()
+});
+
+test('Adds 2 + 2 + 3', () => {
+  expect(2 + 2 + 3).toBe(7);
+});
+test('The first number should be 0', () => {
+  const wrapper = (0, _enzyme.shallow)(_react.default.createElement(_Calculator.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: void 0
+  }));
+  const display = wrapper.find('.display').text();
+  expect(display).toEqual('displayy');
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNhbGN1bGF0b3IudGVzdC5qcyJdLCJuYW1lcyI6WyJFbnp5bWUiLCJjb25maWd1cmUiLCJhZGFwdGVyIiwiQWRhcHRlciIsInRlc3QiLCJleHBlY3QiLCJ0b0JlIiwid3JhcHBlciIsImRpc3BsYXkiLCJmaW5kIiwidGV4dCIsInRvRXF1YWwiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOzs7O0FBR0FBLGdCQUFPQyxTQUFQLENBQWlCO0FBQUVDLEVBQUFBLE9BQU8sRUFBRSxJQUFJQywyQkFBSjtBQUFYLENBQWpCOztBQUVBQyxJQUFJLENBQUMsZ0JBQUQsRUFBbUIsTUFBTTtBQUN6QkMsRUFBQUEsTUFBTSxDQUFDLElBQUUsQ0FBRixHQUFJLENBQUwsQ0FBTixDQUFjQyxJQUFkLENBQW1CLENBQW5CO0FBQ0gsQ0FGRyxDQUFKO0FBSUFGLElBQUksQ0FBQyw4QkFBRCxFQUFpQyxNQUFNO0FBQ3ZDLFFBQU1HLE9BQU8sR0FBRyxxQkFBUSw2QkFBQyxtQkFBRDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxJQUFSLENBQWhCO0FBQ0EsUUFBTUMsT0FBTyxHQUFHRCxPQUFPLENBQUNFLElBQVIsQ0FBYSxVQUFiLEVBQXlCQyxJQUF6QixFQUFoQjtBQUNBTCxFQUFBQSxNQUFNLENBQUNHLE9BQUQsQ0FBTixDQUFnQkcsT0FBaEIsQ0FBd0IsVUFBeEI7QUFDSCxDQUpHLENBQUoiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgQ2FsY3VsYXRvciBmcm9tICcuL0NhbGN1bGF0b3InO1xuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBSZWFjdERPTSBmcm9tICdyZWFjdC1kb20nO1xuaW1wb3J0IEVuenltZSBmcm9tICdlbnp5bWUnO1xuaW1wb3J0IEFkYXB0ZXIgZnJvbSAnZW56eW1lLWFkYXB0ZXItcmVhY3QtMTYnO1xuaW1wb3J0IHsgc2hhbGxvdyB9IGZyb20gJ2VuenltZSc7XG5cbkVuenltZS5jb25maWd1cmUoeyBhZGFwdGVyOiBuZXcgQWRhcHRlcigpIH0pO1xuXG50ZXN0KCdBZGRzIDIgKyAyICsgMycsICgpID0+IHtcbiAgICBleHBlY3QoMisyKzMpLnRvQmUoNyk7XG59KTtcblxudGVzdCgnVGhlIGZpcnN0IG51bWJlciBzaG91bGQgYmUgMCcsICgpID0+IHtcbiAgICBjb25zdCB3cmFwcGVyID0gc2hhbGxvdyg8Q2FsY3VsYXRvci8+KTtcbiAgICBjb25zdCBkaXNwbGF5ID0gd3JhcHBlci5maW5kKCcuZGlzcGxheScpLnRleHQoKTtcbiAgICBleHBlY3QoZGlzcGxheSkudG9FcXVhbCgnZGlzcGxheXknKTtcbn0pO1xuIl19

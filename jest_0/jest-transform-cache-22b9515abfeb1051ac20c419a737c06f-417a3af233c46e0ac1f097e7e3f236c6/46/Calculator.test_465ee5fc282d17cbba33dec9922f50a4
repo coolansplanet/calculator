@@ -1,0 +1,49 @@
+96421eaf8d9dac41238595204e52bf63
+"use strict";
+
+var _interopRequireDefault = require("/home/hermanschmidt/Desktop/calculator/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _interopRequireWildcard = require("/home/hermanschmidt/Desktop/calculator/node_modules/@babel/runtime/helpers/interopRequireWildcard");
+
+var _Calculator = _interopRequireDefault(require("./Calculator"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+var _enzyme = _interopRequireWildcard(require("enzyme"));
+
+var _enzymeAdapterReact = _interopRequireDefault(require("enzyme-adapter-react-16"));
+
+var _reactTestRenderer = _interopRequireDefault(require("react-test-renderer"));
+
+var _jsxFileName = "/home/hermanschmidt/Desktop/calculator/src/components/Calculator/Calculator.test.js";
+
+_enzyme.default.configure({
+  adapter: new _enzymeAdapterReact.default()
+});
+
+describe('Calculator component snapshot', () => {
+  it('Matches the snapshot', () => {
+    const tree = _reactTestRenderer.default.create(_react.default.createElement(_Calculator.default, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: void 0
+    })).toJSON();
+
+    expect(tree).toMatchSnapshot();
+  });
+});
+describe('Calculator component click events', () => {
+  it('After clicking CE, if I input 0123 shouldn\'t show the number 0', () => {
+    click('.clear-entry');
+    click('.b0');
+    click('.b1');
+    click('.b2');
+    click('.b3');
+    expect(displayOutput()).toEqual('123');
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkNhbGN1bGF0b3IudGVzdC5qcyJdLCJuYW1lcyI6WyJFbnp5bWUiLCJjb25maWd1cmUiLCJhZGFwdGVyIiwiQWRhcHRlciIsImRlc2NyaWJlIiwiaXQiLCJ0cmVlIiwicmVuZGVyZXIiLCJjcmVhdGUiLCJ0b0pTT04iLCJleHBlY3QiLCJ0b01hdGNoU25hcHNob3QiLCJjbGljayIsImRpc3BsYXlPdXRwdXQiLCJ0b0VxdWFsIl0sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFFQTs7OztBQUVBQSxnQkFBT0MsU0FBUCxDQUFpQjtBQUFFQyxFQUFBQSxPQUFPLEVBQUUsSUFBSUMsMkJBQUo7QUFBWCxDQUFqQjs7QUFHQUMsUUFBUSxDQUFDLCtCQUFELEVBQWtDLE1BQU07QUFFNUNDLEVBQUFBLEVBQUUsQ0FBQyxzQkFBRCxFQUF5QixNQUFNO0FBQzdCLFVBQU1DLElBQUksR0FBR0MsMkJBQVNDLE1BQVQsQ0FBZ0IsNkJBQUMsbUJBQUQ7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsTUFBaEIsRUFBK0JDLE1BQS9CLEVBQWI7O0FBQ0FDLElBQUFBLE1BQU0sQ0FBQ0osSUFBRCxDQUFOLENBQWFLLGVBQWI7QUFDSCxHQUhDLENBQUY7QUFJSCxDQU5PLENBQVI7QUFTQVAsUUFBUSxDQUFDLG1DQUFELEVBQXNDLE1BQU07QUFJaERDLEVBQUFBLEVBQUUsQ0FBQyxpRUFBRCxFQUFvRSxNQUFNO0FBRXhFTyxJQUFBQSxLQUFLLENBQUMsY0FBRCxDQUFMO0FBQ0FBLElBQUFBLEtBQUssQ0FBQyxLQUFELENBQUw7QUFDQUEsSUFBQUEsS0FBSyxDQUFDLEtBQUQsQ0FBTDtBQUNBQSxJQUFBQSxLQUFLLENBQUMsS0FBRCxDQUFMO0FBQ0FBLElBQUFBLEtBQUssQ0FBQyxLQUFELENBQUw7QUFDQUYsSUFBQUEsTUFBTSxDQUNGRyxhQUFhLEVBRFgsQ0FBTixDQUVFQyxPQUZGLENBRVUsS0FGVjtBQUdILEdBVkMsQ0FBRjtBQVdILENBZk8sQ0FBUiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBDYWxjdWxhdG9yIGZyb20gJy4vQ2FsY3VsYXRvcic7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IFJlYWN0RE9NIGZyb20gJ3JlYWN0LWRvbSc7XG5pbXBvcnQgRW56eW1lIGZyb20gJ2VuenltZSc7XG5pbXBvcnQgQWRhcHRlciBmcm9tICdlbnp5bWUtYWRhcHRlci1yZWFjdC0xNic7XG5pbXBvcnQgeyBzaGFsbG93IH0gZnJvbSAnZW56eW1lJztcbmltcG9ydCByZW5kZXJlciBmcm9tICdyZWFjdC10ZXN0LXJlbmRlcmVyJztcblxuRW56eW1lLmNvbmZpZ3VyZSh7IGFkYXB0ZXI6IG5ldyBBZGFwdGVyKCkgfSk7XG5cblxuZGVzY3JpYmUoJ0NhbGN1bGF0b3IgY29tcG9uZW50IHNuYXBzaG90JywgKCkgPT4ge1xuXG4gICAgaXQoJ01hdGNoZXMgdGhlIHNuYXBzaG90JywgKCkgPT4ge1xuICAgICAgICBjb25zdCB0cmVlID0gcmVuZGVyZXIuY3JlYXRlKDxDYWxjdWxhdG9yLz4pLnRvSlNPTigpO1xuICAgICAgICBleHBlY3QodHJlZSkudG9NYXRjaFNuYXBzaG90KCk7XG4gICAgfSk7XG59KTtcblxuXG5kZXNjcmliZSgnQ2FsY3VsYXRvciBjb21wb25lbnQgY2xpY2sgZXZlbnRzJywgKCkgPT4ge1xuXG5cblxuICAgIGl0KCdBZnRlciBjbGlja2luZyBDRSwgaWYgSSBpbnB1dCAwMTIzIHNob3VsZG5cXCd0IHNob3cgdGhlIG51bWJlciAwJywgKCkgPT4ge1xuXG4gICAgICAgIGNsaWNrKCcuY2xlYXItZW50cnknKTtcbiAgICAgICAgY2xpY2soJy5iMCcpO1xuICAgICAgICBjbGljaygnLmIxJyk7XG4gICAgICAgIGNsaWNrKCcuYjInKTtcbiAgICAgICAgY2xpY2soJy5iMycpO1xuICAgICAgICBleHBlY3QoXG4gICAgICAgICAgICBkaXNwbGF5T3V0cHV0KClcbiAgICAgICAgKS50b0VxdWFsKCcxMjMnKTtcbiAgICB9KTtcbn0pO1xuIl19
