@@ -30,7 +30,7 @@ This is a simple calculator test for [**AID:Tech**](https://aid.technology/) mad
 
 4. If your default browser didn't open automatically at this point, open it and go to <http://localhost:3000> in oder to see the website working.
 
-4. If you want to test it, just run `npm test` in your CLI. You'll also see a **coverage report** (requested as bonus point) on the CLI itself or, if you prefer, you can also view it in HTML format opening the following file with your browser: [./coverage/lcov-report/index.html](./coverage/lcov-report/index.html). **Travis CI** is integrated with this project, so the project is tested and built in every push.
+4. If you want to test it, just run `npm test` in your CLI. You'll also see a **coverage report** (requested as bonus point) on the CLI itself or, if you prefer, you can also view it in HTML format opening the following file with your browser: `./coverage/lcov-report/index.html`. **Travis CI** is integrated with this project, so the project is tested and built in every push.
 
 5. If you want to build it manually, just run `npm run build`.
 
