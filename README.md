@@ -4,21 +4,7 @@ This is a simple calculator test for [**AID:Tech**](https://aid.technology/) mad
 
 ---
 
-#### Code Task:
 
-* Create or copy (just credit the repository) a basic **React project**.
-
-* Learn to use **Jest/Enzyme** to create a simple suite of unit tests to test its functionality.
-
-    * Bonus 1: Add a measurement of **code coverage**
-
-    * Bonus 2: Set up **Travis CI** on your repository to automatically run unit tests each time the repository is updated.
-
-* Your code deployment should be tracked on a public git repository (on GitHub), and should include sufficient documentation/instructions to replicate. Follow good git practice to separate the development of each unit test.
-
-**All the requested tasks has been done on this project (including the bonus items).**
-
----
 
 #### How to run it:
 
